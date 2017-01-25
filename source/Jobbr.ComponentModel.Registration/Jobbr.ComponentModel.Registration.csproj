@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DA63448E-F6CD-4519-9284-09028659AD28}</ProjectGuid>
+    <ProjectGuid>{12CAB6D9-5E35-4AF5-88EB-EC81EE61C620}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jobbr.ComponentModel.Registration</RootNamespace>
@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IConfigurationValidator.cs" />
+    <Compile Include="IFeatureConfiguration.cs" />
     <Compile Include="IJobbrBuilder.cs" />
     <Compile Include="IJobbrComponent.cs" />
     <Compile Include="IJobbrServiceProvider.cs" />
