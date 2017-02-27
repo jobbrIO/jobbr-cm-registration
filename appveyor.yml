@@ -26,7 +26,7 @@ build:
 after_build:
   - cmd: ECHO nuget pack source\Jobbr.ComponentModel.Registration.nuspec -version "%GitVersion_NuGetVersion%" -prop "target=%CONFIGURATION%"
   - cmd: nuget pack source\Jobbr.ComponentModel.Registration.nuspec -version "%GitVersion_NuGetVersion%" -prop "target=%CONFIGURATION%"
-  - cmd: appveyor PushArtifact "blub-Jobbr.ComponentModel.Registration.%GitVersion_NuGetVersion%.nupkg"
+  - cmd: appveyor PushArtifact "Jobbr.ComponentModel.Registration.%GitVersion_NuGetVersion%.nupkg"
 
 deploy:
 - provider: NuGet
