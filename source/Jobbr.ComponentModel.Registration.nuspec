@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>blub-Jobbr.ComponentModel.Registration</id>
+    <id>Jobbr.ComponentModel.Registration</id>
     <version>$version$</version>
     <authors>Jobbr</authors>
     <owners>Jobbr</owners>
     <projectUrl>http://github.com/jobbrIO/jobbr-cm-registration</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Jobbr is a .NET JobServer</description>
-    <copyright>Copyright 2016</copyright>
+    <copyright>Copyright 2017</copyright>
   </metadata>
   <files>
     <file src="Jobbr.ComponentModel.Registration/bin/Release/Jobbr.ComponentModel.Registration.dll" target="lib\net45"/>
