@@ -8,7 +8,7 @@
     <projectUrl>http://github.com/jobbrIO/jobbr-cm-registration</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/jobbrIO/jobbr-cm-registration/develop/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>Jobbr is a .NET JobServer</description>
+    <description>Defines the interface which Jobbr Extensions use to register themselves</description>
     <copyright>Copyright 2017</copyright>
     <iconUrl>https://raw.githubusercontent.com/jobbrIO/artwork/master/build/icons/icon_addon_256_dark.png</iconUrl>
   </metadata>
