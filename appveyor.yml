@@ -8,6 +8,8 @@ branches:
 
 install:
   - choco install gitversion.portable -pre -y
+  
+image: Visual Studio 2019
 
 assembly_info:
   patch: false
