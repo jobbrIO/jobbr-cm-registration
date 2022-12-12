@@ -6,6 +6,10 @@ namespace Jobbr.ComponentModel.Registration
     {
         void Register<T>(Type type);
 
+        void RegisterForCollection<T>(Type type);
+
         void Add<T>(object instance);
+
+        void AddForCollection<T>(object instance);
     }
 }
