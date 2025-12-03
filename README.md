@@ -1,3 +1,7 @@
+> [!IMPORTANT]  
+> This repository is obsolete.  
+> Development of Jobbr has been moved to the [jobbr mono-repo](https://github.com/jobbrIO/jobbr).
+
 # Jobbr Component Registration [![Build status](https://img.shields.io/appveyor/build/Jobbr/jobbr-cm-registration/develop.svg?label=develop)](https://ci.appveyor.com/project/Jobbr/jobbr-cm-registration)
 
 This Repository contains the interface which Jobbr Extensions use to register themselves to [Jobbr](https://www.jobbr.io).
